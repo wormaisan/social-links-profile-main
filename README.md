@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/](https://www.frontendmentor.io/solutions/css-flex-00fpRIQUfF)
 - Live Site URL: [https://wormaisan.github.io/social-links-profile-main/](https://wormaisan.github.io/social-links-profile-main/)
 
 ## My process
