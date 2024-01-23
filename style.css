@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Bold.ttf");
+  font-weight: 700;
+}
+
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --darkGrey: hsl(0, 0%, 12%);
+  --offBlack: hsl(0, 0%, 8%);
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--offBlack);
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  flex-grow: 1;
+  display: flex;
+}
+
+.profile__body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__card {
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 384px;
+  background-color: var(--darkGrey);
+  width: 100%;
+}
+
+.profile__img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 88px;
+  width: 88px;
+  margin: 0 auto 28px;
+}
+
+.profile__name {
+  font-size: 25px;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.profile__city {
+  color: var(--green);
+  font-weight: 600;
+  margin-bottom: 29px;
+}
+
+.profile__work {
+  margin-bottom: 26px;
+}
+
+.profile__links li {
+  margin-bottom: 18px;
+}
+
+.profile__links li:last-child {
+  margin-bottom: 0;
+}
+
+.profile__links a {
+  display: block;
+  background-color: var(--grey);
+  padding: 13px 0;
+  color:var(--white);
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.profile__links a:hover,
+.profile__links a:focus {
+  background-color: var(--green);
+  color: var(--darkGrey);
+}
