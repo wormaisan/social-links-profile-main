@@ -137,3 +137,7 @@ ul {
   background-color: var(--green);
   color: var(--darkGrey);
 }
+
+.footer {
+  padding: 20px 0;
+}
